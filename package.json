@@ -1,0 +1,16 @@
+{
+  "name": "forge-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thirdweb-example/forge-starter.git",
+  "author": "thirdweb <eng@thirdweb.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3"
+  },
+  "scripts": {
+    "build": "npx thirdweb@latest detect -k _1G9gTIMd9W2KDZ7q4lUD7xdyfwU_VM6iLkyYtjJXF75dI181aQQpHLhtzVLVcQRTL6iemEjCAv7giAxeEweRQ",
+    "deploy": "npx thirdweb@latest deploy  -k _1G9gTIMd9W2KDZ7q4lUD7xdyfwU_VM6iLkyYtjJXF75dI181aQQpHLhtzVLVcQRTL6iemEjCAv7giAxeEweRQ",
+    "release": "npx thirdweb@latest release"
+  }
+}
